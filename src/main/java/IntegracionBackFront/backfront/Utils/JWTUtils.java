@@ -13,7 +13,7 @@ import java.util.Date;
 
 //Anotación que marca esta clase como un componente de Spring
 @Component
-public class JWTUtils {
+public class  JWTUtils {
 
     @Value("${security.jwt.secret}")
     private String jwtSecreto;                  // 32 caracteres por seguridad
